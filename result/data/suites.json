@@ -1,0 +1,65 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_case.test_iot_api_login",
+    "children" : [ {
+      "name" : "test_iot_api_login_corrent",
+      "children" : [ {
+        "name" : "test_api_getidbyname",
+        "uid" : "fe47298acd27fbd8",
+        "parentUid" : "c7f8bc448e0b744781153c40d813c911",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716296784360,
+          "stop" : 1716296784380,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_api_tenantId",
+        "uid" : "8a98b5c49bfc34fa",
+        "parentUid" : "c7f8bc448e0b744781153c40d813c911",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716296784384,
+          "stop" : 1716296784537,
+          "duration" : 153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_api_usernametendid",
+        "uid" : "d51dee738f35b164",
+        "parentUid" : "c7f8bc448e0b744781153c40d813c911",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716296784539,
+          "stop" : 1716296784580,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_api_login",
+        "uid" : "e3960ec2cb2194dd",
+        "parentUid" : "c7f8bc448e0b744781153c40d813c911",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716296784583,
+          "stop" : 1716296784845,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c7f8bc448e0b744781153c40d813c911"
+    } ],
+    "uid" : "29bbe0affe8b84c9b207a028706d949e"
+  } ]
+}
