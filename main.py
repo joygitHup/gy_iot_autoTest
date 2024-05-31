@@ -1,10 +1,10 @@
 import os
 import unittest
 import pytest
-from config.path_config import report_path
+from config.path_config import report_path,test_case
 case_path1 = os.path.join(os.getcwd(), "test_case")
 def creat_suite():
-    suiteTest_defaultTestLoader = unittest.defaultTestLoader.discover(start_dir=case_path1, pattern='test_*.py',
+    suiteTest_defaultTestLoader = unittest.defaultTestLoader.discover(start_dir=test_case, pattern='test_*.py',
                                                                       top_level_dir=None)
     return suiteTest_defaultTestLoader
 suite = creat_suite()
