@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue May 21 21:06:24 CST 2024","Tue May 21 21:06:24 CST 2024","41","test_case.test_iot_api_login","test_iot_api_login_corrent","","","","test_api_usernametendid",""
-"passed","Tue May 21 21:06:24 CST 2024","Tue May 21 21:06:24 CST 2024","153","test_case.test_iot_api_login","test_iot_api_login_corrent","","","","test_api_tenantId",""
-"passed","Tue May 21 21:06:24 CST 2024","Tue May 21 21:06:24 CST 2024","20","test_case.test_iot_api_login","test_iot_api_login_corrent","","","","test_api_getidbyname",""
-"passed","Tue May 21 21:06:24 CST 2024","Tue May 21 21:06:24 CST 2024","262","test_case.test_iot_api_login","test_iot_api_login_corrent","","","","test_api_login",""
