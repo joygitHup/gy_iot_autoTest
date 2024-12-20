@@ -11,7 +11,7 @@ from config.path_config import SccreShort
 import threading
 @allure.description('登录用例')
 class Test_login(driver_basePC_class):
-    @pytest.mark.parametrize('account,pwd',[("CDBAdmin",'CDBAdmin.123'),("CDAdmin",'CDBAdmin.123'),("CDAdmin",'CDAdmin.123')])
+    @pytest.mark.parametrize('account,pwd',[("CDBAdmin",'CDBAdmin.123'),("CDAdmin",'CDBAdmin.123'),("CDAdmin",'CDAdmin.123'),("CDAdmin1",'CDAdmin.1232')])
     def test_login_corrent_userandPwd(self,account,pwd):
         self.driver.implicitly_wait(3)
         username_ele = '//*[@id="form_item_account"]'
@@ -23,7 +23,6 @@ class Test_login(driver_basePC_class):
         log_btn = '//*[@id="app"]/div/div/div/div/div[1]/div/form/div[4]/div/div/div/div/button'
         self.driver.find_element(by=By.XPATH,value=log_btn).click()
         time.sleep(2)
-
         self.driver.save_screenshot(SccreShort+"\\b.jpg")
         allure.attach.file(SccreShort+"\\b.JPG",
                            attachment_type=allure.attachment_type.JPG)
@@ -35,6 +34,8 @@ class Test_login(driver_basePC_class):
         time.sleep(3)
         el4='//*[@id="htmlRoot"]/body/div[5]/div/div[2]/div/div[2]/div/div/div[2]/button[2]/span'
         self.driver.find_element(by=By.XPATH,value=el4).click()
+
+
 if __name__=="__main__":
     op=Test_login
     # op.test_login_corrent_userandPwd()

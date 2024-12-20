@@ -40,5 +40,6 @@ def test_api_login():
     r=requests.post(headers=eval(str(header)),url=url,data=data)
     print(r.text)
 if __name__=="__main__":
-   op=test_api_login()
+   op=test_api_getidbyname()
+   print(op)
 
